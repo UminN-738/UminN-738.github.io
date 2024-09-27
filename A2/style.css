@@ -1,0 +1,60 @@
+/* Add your styling here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2b6ca3;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;   
+}
+    header .small {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+    nav{
+        display:grid;
+        grid-template-columns: 100px 100px;
+        gap:100px;
+        margin-top:10px;
+        justify-content: center;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+main {
+    padding: 2rem;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section {
+    background: white;
+    margin:2rem 0;
+    padding: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: #2b6ca3;
+    color:white;
+}
+
+svg {
+    border: solid lightgrey;
+}
+
+
