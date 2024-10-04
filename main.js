@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const Homehover = document.getElementById('HomeHover');
 const Visualhover = document.getElementById('VisualHover');
+const Vishover = document.getElementById('VisHover');
 
 Homehover.addEventListener('mouseenter',function(){
     Homehover.style.color = "black";
