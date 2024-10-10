@@ -5,7 +5,6 @@ async function render() {
   const data = await d3.csv("dataset/videogames_wide.csv");
   const data2 = await d3.csv("dataset/videogames_long.csv");
 
-  // create a bar chart
   const vlSpec1 = vl
     .markBar()
     .data(data)
